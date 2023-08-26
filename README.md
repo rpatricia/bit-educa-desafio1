@@ -1,5 +1,5 @@
 # bit-educa-desafio1
 
 
-![preview](image/logo-1.png)
+![preview](image/biteduca.jpeg)
  
