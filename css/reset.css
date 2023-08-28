@@ -1,34 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500&display=swap");
 
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500;1,600&family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500&display=swap'); */
 
-
 :root {
+  --azul-claro: #84c4f8;
+  --azul-medio: #3194e6;
+  --azul-escuro: #2a608b;
+  --azul-escuro-2: #0f2437;
 
-    --azul-claro:#84c4f8;    
-    --azul-medio:#3194e6;    
-        
-    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-    --white: #ffffff;
-    --black: #13131a;
+  --border: 0.1rem solid #3194e6;
+  --white: #ffffff;
+  --black: #13131a;
+  --grey: #373737;
+  --span: #2a608b
+
+  /* Social Media */
+  --blue-face: #1349c6;
+  --blue-linkedin: #0e76a8;
+  --youtube: #e31917;
+  --color-primary:#191d2b;
+  --box-shadow: 1px 4px 15px var(--azul-medio);
+  
+  
+
 }
 
 /* cores */
 
-
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 
-
-    font-family:'Roboto', sans-serif; 
-    font-family: 'Montserrat', sans-serif;
-
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
 /* reset */

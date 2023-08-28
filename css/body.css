@@ -1,17 +1,87 @@
-h1{
-    color: var(--azul-claro);
-    margin-top: 2rem;
+.home{
+   
+    padding: 250px 0;
+    background: url(../image/banner.jpg) no-repeat;
+    
 }
 
-.banner img {
-    width: 15.62rem;
-    border-radius:50%;
-    margin-top: 2rem;
-    border: 4px solid var(--azul-claro);
+
+.home h1 {
+    width: 55%;
+    text-align: left;
+    padding-left: 2rem;
+    color: var(--white);
+    font-size: clamp(2rem, 3vw, 3rem);
+
+
 }
+
+
+.box-container {
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    align-items: center;
+    max-width: 100%;
+    background-color: var(--azul-medio);
+    border:var(--border) ;
+
+}
+    
+.box-container .banner {
+    flex: 1 1 45rem;
+    width: 100%;
+    
+}
+
+.box-container .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.box-container .content {
+    flex: 1 1 45rem;
+    width: 100%;
+    padding: 2rem;
+}
+.fotos-professores {
+    background-color: var(--white);
+    padding: 60px 0;
+}
+.fotos-professores h3 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.fotos-professores .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+    
+}
+.fotos-professores figure{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fotos-professores figure figcaption {
+    padding-top: 1rem;
+    color: var(--white);
+}
+
+
 
 h2{
-    color: var(--azul-claro);
+    color: var(--white);
     margin-top: 2rem;
 }
 
@@ -20,28 +90,26 @@ h3 {
 }
 
 section {
-    padding: 2rem 7%;
+    /* padding: 2rem 7%; */
     
 }
 
 .texto1 {
     margin-bottom: 1rem;
+    color: var(--white);
 }
 
 .texto2 {
     margin-bottom: 1rem;
+    color: var(--white);
 }
 
 
-.fotos-professores {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .professor {
     width: 15.62rem;
+    height: 15.62rem;
     border-radius:50%;
     margin-top: 2rem;
     text-align: center;
@@ -50,11 +118,11 @@ section {
     
 }
 
-footer {
-    text-align: center;
-    
+.list h3 {
+
+font-size: 1.8rem;
+margin-bottom: 1rem;
+
 }
 
-span {
-    color:var(--azul-claro)
-}
+
