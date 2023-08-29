@@ -57,7 +57,9 @@
 }
 
 .fotos-professores .box{
+    max-width:1600px;
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
@@ -65,11 +67,25 @@
     
 }
 .fotos-professores figure{
-    
+    width:100%;
+    height:auto;
+    overflow:hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+
+.professor {
+    /* width: 15.62rem; */
+    height: 15.62rem;
+    object-fit:cover;
+    border-radius:50%;
+    margin-top: 2rem;
+    text-align: center;
+    border: 4px solid var(--azul-claro);
+    margin-left: 8px;
     
 }
 
@@ -107,16 +123,7 @@ section {
 
 
 
-.professor {
-    width: 15.62rem;
-    height: 15.62rem;
-    border-radius:50%;
-    margin-top: 2rem;
-    text-align: center;
-    border: 4px solid var(--azul-claro);
-    margin-left: 8px;
-    
-}
+
 
 .list h3 {
 
