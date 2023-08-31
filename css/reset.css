@@ -8,6 +8,9 @@
   --azul-escuro: #2a608b;
   --azul-escuro-2: #0f2437;
 
+  --azul-claro2:#1349c6;
+  --azul-claro3:#0e76a8;
+
   --border: 0.1rem solid #3194e6;
   --white: #ffffff;
   --black: #13131a;
@@ -15,8 +18,8 @@
   --span: #2a608b
 
   /* Social Media */
-  --blue-face: #1349c6;
-  --blue-linkedin: #0e76a8;
+  --face: #1349c6;
+  --linkedin: #0e76a8;
   --youtube: #e31917;
   --color-primary:#191d2b;
   --box-shadow: 1px 4px 15px var(--azul-medio);
@@ -40,6 +43,8 @@
 }
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
 }
 /* reset */

@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 4%;
-  /* border-bottom: var(--border); */
+  padding: 0 4%;
+  border-bottom: var(--border);
   position: fixed;
   top: 0;
   left: 0;
@@ -14,10 +14,15 @@
 
 .header .logo img {
   width: 8rem;
-}
+  padding: 1rem;
 
+}
+.navbar{
+  padding: 1rem;
+
+}
 .navbar a {
-  margin-right: 4px;
+  margin-left: 2rem;
   color: var(--white);
   font-size: 1.2rem;
 }
@@ -31,6 +36,7 @@
     font-size: 1.2rem;
     color: var(--azul-claro);
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 #menu-btn:hover {
