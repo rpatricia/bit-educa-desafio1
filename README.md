@@ -1,5 +1,7 @@
 # bit-educa-desafio1
 
 
-![preview](image/biteduca.jpeg)
- 
+[preview](https://bit-educa-desafio1-lyl4.vercel.app/)
+
+![image](image/page-biteduca.png)
+
