@@ -1,10 +1,12 @@
 .post-1 {
   padding: 4rem 4%;
+  background-color: var(--black-medium);
 }
 .heading-1 {
   text-align: center;
   font-size: 1.8rem;
   margin: 0 0 24px;
+  color: var(--white);
 }
 .post-container-1 {
   display: flex;
@@ -37,15 +39,15 @@
   object-fit: cover;
 }
 .post-box-1 h4 {
-  color: var(--azul-escuro);
+  color: var(--white);
   font-size: 1rem;
   padding: 1rem 0;
 }
 .post-box-1 p {
-  color: var(--azul-escuro);
+  color: var(--white);
 }
 .post-box-1 span {
-  color: var(--azul-escuro);
+  color: var(--white);
   font-weight: 700;
   font-size: 1.5rem;
 }
