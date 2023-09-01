@@ -1,96 +1,97 @@
 .footer-1 {
-  /* padding:80px 13% 70px; */
-  padding: 4rem 4%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  gap: 3.5rem;
-  background-color: var(--black-medium);
-}
-.footer-content img {
-  width: 8rem;
-}
-.footer-content p {
-  font-size: 0.8rem;
-  line-height: 30px;
-  color: var(--azul-claro);
-}
-.footer-content h4 {
-  margin-bottom: 1.5rem;
-  font-size: 20px;
-  color: var(--azul-claro);
-  position: relative;
-}
-
-
-.footer-content h4::before{
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 2px;
-  background-color: var(--azul-claro);
-  left: 0;
-  bottom: -10px;
-}
-.footer-content li {
-  /* list-style: none !important; */
-  display: block;
-  margin-bottom: 0.8rem;
-
-  /* position: relative; */
-}
-.footer-content li a {
-  display: block;
-  color: var(--azul-claro);
-  font-weight: 400;
-  transition: all 0.4s ease;
-}
-.footer-content li a:hover {
-  transform: translateX(5px);
-  color: var(--azul-escuro);
-}
-
-/* socia mídia */
-.footer-content .icons {
-  display: flex;
-  align-items: center;
-}
-.footer-content .icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  font-size: 1rem;
-  /* border: var(--border); */
-  /* transition: all 0.3s ease-in-out; */
-}
-.footer-content .icons a:nth-child(1) {
-  background: var(--azul-claro2);
-  color: var(--white);
-}
-.footer-content .icons a:nth-child(2) {
-  background: var(--youtube);
-  color: #fff;
-}
-.footer-content .icons a:nth-child(3) {
-  color: #fff;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
-}
-.footer-content .icons a:nth-child(4) {
-  background: var(--linkedin);
-  color: #fff;
-}
-.footer-content .icons a:hover {
-  /* cursor: pointer;
-  background-color: var(--azul-escuro); */
-  /* transform: translateY(-10px); */
-}
+    /* padding:80px 13% 70px; */
+    padding: 4rem 4%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background-color: var(--black-medium);
+  }
+  .footer-content img {
+    width: 8rem;
+  }
+  .footer-content p {
+    font-size: 0.8rem;
+    line-height: 30px;
+    color: var(--azul-claro);
+  }
+  .footer-content h4 {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    color: var(--azul-claro);
+    position: relative;
+  }
+  
+  
+  .footer-content h4::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: var(--azul-claro);
+    left: 0;
+    bottom: -10px;
+  }
+  .footer-content li {
+    /* list-style: none !important; */
+    display: block;
+    margin-bottom: 0.8rem;
+  
+    /* position: relative; */
+  }
+  .footer-content li a {
+    display: block;
+    color: var(--azul-claro);
+    font-weight: 400;
+    transition: all 0.4s ease;
+  }
+  .footer-content li a:hover {
+    transform: translateX(5px);
+    color: var(--azul-escuro);
+  }
+  
+  /* socia mídia */
+  .footer-content .icons {
+    display: flex;
+    align-items: center;
+  }
+  .footer-content .icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    /* border: var(--border); */
+    /* transition: all 0.3s ease-in-out; */
+  }
+  .footer-content .icons a:nth-child(1) {
+    background: var(--azul-claro2);
+    color: var(--white);
+  }
+  .footer-content .icons a:nth-child(2) {
+    background: var(--youtube);
+    color: #fff;
+  }
+  .footer-content .icons a:nth-child(3) {
+    color: #fff;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  }
+  .footer-content .icons a:nth-child(4) {
+    background: var(--linkedin);
+    color: #fff;
+  }
+  .footer-content .icons a:hover {
+    /* cursor: pointer;
+    background-color: var(--azul-escuro); */
+    /* transform: translateY(-10px); */
+  }
+  
