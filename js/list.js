@@ -45,3 +45,46 @@ for (const card of cards) {
     
 }
 
+const lists = [
+  {
+    id:1,
+    title: "Empresa",
+    item1: "Sobre nós",
+    item2: "Nossos serviços",
+    item3: "Política de privacidade",
+    item4:"Programa de afiliados"
+    
+  },
+  {
+    id:2,
+    title: "Obter ajuda",
+    item1: "Perguntas frequentes",
+    item2: "Envio",
+    item3: "Retornos",
+    item4:"Status do pedido"
+    
+  },
+  {
+    id:3,
+    title: "Ajuda",
+    item1: "Condições",
+    item2: "Blogs",
+    item3: "Trabalhe conosco",
+    item4:"Entrar em contato"
+    
+  },
+]
+
+for (const list of lists) {
+  const item = `<div class="footer-content">
+  <h4>${list.title}</h4>
+  <ul>
+    <li><a href="#">${list.item1}</a></li>
+    <li><a href="#">${list.item2}</a></li>
+    <li><a href="#"> ${list.item3}</a></li>
+    <li><a href="#">${list.item4} </a></li>
+  </ul>
+</div>`
+document.querySelector(".footer-1").innerHTML +=item
+}
+
